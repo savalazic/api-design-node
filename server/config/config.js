@@ -24,7 +24,7 @@ try {
   // just making sure the require actually
   // got something back :)
   envConfig = envConfig || {};
-} catch (e) {
+} catch(e) {
   envConfig = {};
 }
 
